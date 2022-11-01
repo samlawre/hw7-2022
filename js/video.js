@@ -56,10 +56,14 @@ document.querySelector("#mute").addEventListener("click", function() {
 document.querySelector("#slider").addEventListener("click", function() {
 	console.log("Changing volume")
 	video.value=this.value/100
-	console.log("Volume is " + video.value)
+	console.log("The current value is " + video.value)
 	document.querySelector('#volume').innerHTML = video.value * 100+ "%"
 })	
 
 
-
-document.getElementById('#vintage').style.display = hidden
+document.querySelector("#video").addEventListener("click",function() {
+	// need to finish
+    if (this==true){
+		console.log("Vintage")
+    }
+})
