@@ -62,9 +62,12 @@ document.querySelector("#slider").addEventListener("click", function() {
 })	
 
 
-document.querySelector("#video").addEventListener("click",function() {
-	// need to finish
-    if (this==true){
-		console.log("Vintage")
-    }
+document.querySelector("#vintage").addEventListener("click",function() {
+	video.classList.add("oldSchool")
+	console.log("Vintage")
+})
+
+document.querySelector("#orig").addEventListener("click",function() {
+	video.classList.remove("oldSchool")
+	console.log("Original")
 })
