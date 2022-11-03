@@ -71,3 +71,9 @@ document.querySelector("#orig").addEventListener("click",function() {
 	video.classList.remove("oldSchool")
 	console.log("Original")
 })
+
+// Deeper questions:
+// 1. Yes I could add soemthing that shows the current runetime of the video by putting in an innerHTML and putting the        video.currentTime as the value of that.
+// 2. Yes, a thumbnail can be shown if I use the <video> tag itself. 
+// 3. Yes, if you put a different src into the video class in the html I could get a different video to work. 
+// 4. The slider is not currently accessible. We could make it accessible by adding a focus element for users to tab into it. 
